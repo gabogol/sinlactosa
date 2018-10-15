@@ -7,20 +7,20 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-body {
-    font-family: 'Muli', sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-overflow-scrolling: touch;
-    color: #5b5b5b;
+html {
+    position: relative;
     height: 100%;
     overflow-x: hidden !important;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    position: absolute;
 }
-
-
+body {
+    font-family: 'Muli', sans-serif;
+    color: #5b5b5b;
+    height: 100%;
+    line-height: 100% !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
+}
 
 /********** Links & type *********+*/
 a,
@@ -36,6 +36,15 @@ h1,h2,h3,h4 {
 }
 
 /********** Header *********+*/
+
+.head {
+    background: url('../img/bgconcreto.jpg') center center;
+    background-size: cover;
+}
+
+.head02 {
+    margin-left: -30%;
+}
 
 .social {
     background: url('../img/bgsocial.png') center right no-repeat;
@@ -71,7 +80,6 @@ h1,h2,h3,h4 {
 }
 .concurso .btn-warning {
     border-radius: 0;
-    font-size: 1.5em;
     font-weight: 900;
     color:#802f8c;
 }
