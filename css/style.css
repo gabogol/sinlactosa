@@ -91,3 +91,12 @@ h1,h2,h3,h4 {
 .concurso2 strong {
     font-weight: 900;
 }
+.beneficios {
+    background: url('../img/bgbeneficios.png') center center no-repeat;
+    background-size: cover;
+    
+}
+.beneficios h2 {
+    font-weight: 900;
+    color: #f8bc19;
+}
