@@ -94,9 +94,116 @@ h1,h2,h3,h4 {
 .beneficios {
     background: url('../img/bgbeneficios.png') center center no-repeat;
     background-size: cover;
-    
 }
 .beneficios h2 {
     font-weight: 900;
     color: #f8bc19;
+}
+
+.tooltip {
+    pointer-events: none;
+}
+.bs-tooltip-bottom {
+    margin: 35px 0;
+}
+.bs-tooltip-top {
+    margin: 30px 0;
+}
+.tooltip-inner {
+    max-width: 250px;
+    padding: .5rem 1rem;
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #f8bc19;
+    font-size: 16px;
+}
+.tooltip .arrow:before {
+    border-bottom-color: #f8bc19 !important;
+    border-top-color: #f8bc19 !important;
+    border-style: solid;
+}
+
+.slider {
+    background: url('../img/bgconcreto.jpg') center center;
+    background-size: cover;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    z-index: 10;
+    padding:20px 45px;
+    color: #802f8c;
+    text-align: left;
+    width: 600px;
+    background: #f8bc19;
+    box-shadow: 1px 2px 2px #000;
+    opacity: .9;
+}
+.slider img {
+    margin-left: 15px;
+}
+.carousel h2 {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+.carousel-indicators {
+    position: absolute;
+    width: 600px;
+    right: 0;
+    bottom: 50px;
+    left: -15px;
+    z-index: 15;
+    display: grid;
+    justify-content: right;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    list-style: none;
+}
+.carousel-indicators li {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin: 5px 0;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 50%;
+}
+
+.morado {
+    background: #802f8c;
+    color:#f8bc19;
+}
+.morado p {
+    color: #f8bc19;
+    font-size: 18px;
+    line-height: 24px;
+}
+.morado h2 {
+    font-weight: 900;
+    color: #fff;
+}
+.morado strong {
+    font-size: 1.5em;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.75rem;
+    background: #efefef;
+    color: #802f8c;
+    min-height: 200px;
+}
+.card-title {
+    color:#f8bc19;
+    font-weight: 900;
+}
+.card-subtitle {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 25px;
 }
