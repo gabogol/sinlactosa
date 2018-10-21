@@ -262,9 +262,26 @@ h1,h2,h3,h4 {
 }
 
 /********** Footer *********+*/
+.footer {
+    background: #fff;
+}
 .text-footer {
     color: #802f8c;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Boxed Layout */
+@media (min-width: 1440px) {
+    body {
+        max-width: 1440px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        background: #e0e0e0;
+    }
+    .social {
+        position: absolute;
+    }
 }
 
 /********** Responsive *********+*/
@@ -284,6 +301,9 @@ h1,h2,h3,h4 {
     }
     .card-subtitle {
         font-size: 19px;
+    }
+    .concurso {
+        background-size: 100% 30%;
     }
 }
 @media (max-width: 768px) {
@@ -325,6 +345,15 @@ h1,h2,h3,h4 {
     .carousel-control-next {
         right: 0;
     }
+    
+    .concurso2 {
+        height: 360px;
+    }
+}
+@media (max-width: 767px){
+    .tooltip {
+        max-width: 160px;
+    }
 }
 @media (max-width: 575.98px) { 
     .social {
@@ -358,5 +387,16 @@ h1,h2,h3,h4 {
         text-align: center;
         width: 100%;
         opacity: 1;
+    }
+    .concurso {
+        background-size: 100% 30%;
+    }
+    .concurso2 {
+        height: 330px;
+    }
+}
+@media (max-width: 425px) {
+    .concurso {
+        background-size: 100% 24%;
     }
 }
