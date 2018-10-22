@@ -17,9 +17,6 @@ body {
     color: #5b5b5b;
     height: 100%;
     line-height: 100% !important;
-    overflow-x: hidden !important;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
 }
 
 /********** Links & type *********+*/
@@ -307,9 +304,6 @@ h1,h2,h3,h4 {
     }
 }
 @media (max-width: 768px) {
-    .slider {
-        height: 100%;
-    }
     .slider img {
         margin-left: 0px;
     }
@@ -345,14 +339,14 @@ h1,h2,h3,h4 {
     .carousel-control-next {
         right: 0;
     }
-    
     .concurso2 {
         height: 360px;
     }
-}
-@media (max-width: 767px){
-    .tooltip {
-        max-width: 160px;
+    .tooltip .arrow:before {
+        border-bottom-color: transparent !important;
+        border-top-color: transparent!important;
+        border-right-color: #f8bc19;
+        border-style: solid;
     }
 }
 @media (max-width: 575.98px) { 
@@ -374,9 +368,6 @@ h1,h2,h3,h4 {
     }
     .card-text {
         font-size: 11px;
-    }
-    .slider {
-        height: 100vh;
     }
     .carousel-caption {
         position: relative;
