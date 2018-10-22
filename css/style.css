@@ -56,6 +56,16 @@ h1,h2,h3,h4 {
     position: fixed;
     z-index: 10;
 }
+.compra {
+    height: 64px;
+    color: white;
+    margin-top: 30px;
+    position: absolute;
+    right: 0;
+    top: 200px;
+    z-index: 10;
+    left: auto;
+}
 .list-inline-item:not(:last-child) {
     margin-right: -4px !important;
 }
@@ -136,7 +146,7 @@ h1,h2,h3,h4 {
     text-align: left;
     width: 600px;
     background: #f8bc19;
-    box-shadow: 1px 2px 2px #000;
+    box-shadow: 0px 6px 23px #444;
     opacity: .9;
 }
 .slider img {
