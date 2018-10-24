@@ -117,14 +117,18 @@ h1,h2,h3,h4 {
     margin: 30px 0;
 }
 .tooltip-inner {
-    max-width: 250px;
-    padding: .5rem 1rem;
+    max-width: 260px;
+    padding: .9rem 1.2rem;
     color: #fff;
     text-align: center;
-    background-color: transparent;
+    background-color: #6e217a;
     border-radius: 0;
     border: 1px solid #f8bc19;
     font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 120%;
+    font-size: 15px;
 }
 .tooltip .arrow:before {
     border-bottom-color: #f8bc19 !important;
