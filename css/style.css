@@ -49,7 +49,6 @@ h1,h2,h3,h4 {
 .col-m-3 {
     bottom: 130px;
 }
-
 .yogurt1 {
     position: relative;
     left: 30%;
@@ -63,7 +62,6 @@ h1,h2,h3,h4 {
     bottom: 460px;    
     left: 35%;
 }
-
 .social {
     background: url('../img/bgsocial.png') center right no-repeat;
     background-size: contain;
