@@ -39,6 +39,16 @@ h1,h2,h3,h4 {
     background-size: cover;
     height: 680px;
 }
+.head-mobile {
+    background: url('../img/bgheader-m.jpg') center center;
+    background-size: cover;
+}
+.col-m-2 {
+    bottom: 100px;
+}
+.col-m-3 {
+    bottom: 130px;
+}
 
 .yogurt1 {
     position: relative;
@@ -46,11 +56,11 @@ h1,h2,h3,h4 {
 }
 .yogurt2 {
     position: relative;
-    bottom: 16%;
+    bottom: 26%;
 }
 .yogurt3 {
     position: relative;
-    bottom: 42%;
+    bottom: 72%;
     left: 35%;
 }
 
@@ -331,6 +341,9 @@ h1,h2,h3,h4 {
     .concurso {
         background-size: 100% 30%;
     }
+    .head {
+        display: none;
+    }
 }
 @media (max-width: 768px) {
     .slider img {
@@ -415,9 +428,23 @@ h1,h2,h3,h4 {
     .concurso2 {
         height: 330px;
     }
+    .col-m-2 {
+        bottom: 40px;
+    }
+    .col-m-3 {
+        bottom: 20px;
+    }
 }
 @media (max-width: 425px) {
     .concurso {
         background-size: 100% 24%;
+    }
+    .col-m-2 {
+        bottom: 20px;
+    }
+}
+@media (min-width: 992px) {
+    .head-mobile {
+        display: none;
     }
 }
