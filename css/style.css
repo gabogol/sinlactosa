@@ -60,7 +60,7 @@ h1,h2,h3,h4 {
 }
 .yogurt3 {
     position: relative;
-    bottom: 72%;
+    bottom: 460px;    
     left: 35%;
 }
 
@@ -301,6 +301,44 @@ h1,h2,h3,h4 {
 .text-footer {
     color: #802f8c;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Animaciones */
+.float1 {
+	transform: translatey(0px);
+	animation: flotaparriba 6s ease-in-out infinite;
+}
+.float2 {
+	transform: translatey(0px);
+	animation: flotapabajo 9s ease-in-out infinite;
+}
+.float3 {
+	transform: translatey(0px);
+	animation: flotaparriba 8s ease-in-out infinite;
+}
+
+@keyframes flotaparriba {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes flotapabajo {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
 
 /* Boxed Layout */
