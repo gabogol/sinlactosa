@@ -55,7 +55,7 @@ h1,h2,h3,h4 {
 }
 .yogurt2 {
     position: relative;
-    bottom: 26%;
+    bottom: 130px;
 }
 .yogurt3 {
     position: relative;
@@ -380,8 +380,6 @@ h1,h2,h3,h4 {
     .head {
         display: none;
     }
-}
-@media (max-width: 768px) {
     .slider img {
         margin-left: 0px;
     }
@@ -417,6 +415,9 @@ h1,h2,h3,h4 {
     .carousel-control-next {
         right: 0;
     }
+}
+@media (max-width: 768px) {
+
     .concurso2 {
         height: 360px;
     }
@@ -425,6 +426,16 @@ h1,h2,h3,h4 {
         border-top-color: transparent!important;
         border-right-color: #f8bc19;
         border-style: solid;
+    }
+    .carousel-caption {
+        position: relative;
+        bottom: 0px;
+        left: 0;
+        z-index: 10;
+        padding:20px 45px;
+        text-align: center;
+        width: 100%;
+        opacity: 1;
     }
 }
 @media (max-width: 575.98px) { 
@@ -447,16 +458,6 @@ h1,h2,h3,h4 {
     }
     .card-text {
         font-size: 11px;
-    }
-    .carousel-caption {
-        position: relative;
-        bottom: 0px;
-        left: 0;
-        z-index: 10;
-        padding:20px 45px;
-        text-align: center;
-        width: 100%;
-        opacity: 1;
     }
     .concurso {
         background-size: 100% 30%;
